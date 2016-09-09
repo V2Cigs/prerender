@@ -5,7 +5,13 @@ var server = prerender({
     workers: process.env.PRERENDER_NUM_WORKERS,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
     logRequests: true,
+    // pageDoneCheckTimeout: 1000,
+    // resourceDownloadTimeout: 60000,
+    // waitAfterLastRequest: 1000,
     jsTimeout: 30000,
+    // jsCheckTimeout: 1000,
+    // noJsExecutionTimeout: 60000,
+    // evaluateJavascriptCheckTimeout: 1000,
     accessLog: {
         // Check out the file-stream-rotator docs for parameters
         fileStreamRotator: {
