@@ -4,3 +4,4 @@ node_modules/
 .elasticbeanstalk/
 .idea/
 db/
+npm-debug.log
