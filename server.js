@@ -3,9 +3,10 @@ require('newrelic');
 var prerender = require('./lib');
 
 var server = prerender({
-    workers: process.env.PRERENDER_NUM_WORKERS,
+    workers: 1,
     iterations: process.env.PRERENDER_NUM_ITERATIONS,
-    logRequests: true,
+    cookiesEnabled: true,
+    logRequests: false,
     // pageDoneCheckTimeout: 1000,
     // resourceDownloadTimeout: 60000,
     // waitAfterLastRequest: 1000,
