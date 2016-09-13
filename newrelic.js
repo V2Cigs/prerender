@@ -10,7 +10,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['QA V2 Prerender'],
+  app_name: ['V2 Prerender'],
   /**
    * Your New Relic license key.
    */
