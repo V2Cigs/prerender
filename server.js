@@ -31,7 +31,7 @@ var server = prerender({
 });
 
 server.use(prerender.levelCache());
-server.use(prerender.monitoring());
+//server.use(prerender.monitoring());
 server.use(require('prerender-access-log'));
 
 server.use(prerender.sendPrerenderHeader());
