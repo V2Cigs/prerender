@@ -5,4 +5,3 @@ node_modules/
 .idea/
 db/
 npm-debug.log
-newrelic_agent.log
